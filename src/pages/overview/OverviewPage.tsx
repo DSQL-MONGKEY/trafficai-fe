@@ -31,16 +31,11 @@ const OverviewPage = () => {
                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos hic libero quo reiciendis sed, ex iusto autem quae corrupti amet exercitationem odio. Mollitia et repudiandae, odit deserunt placeat libero quo!
                   </div>
                </div>
-               <div className="flex flex-2 flex-col sm:flex-row justify-center gap-3">
+               <div className="flex flex-2 flex-col sm:flex-row justify-start gap-3">
                   <OverviewCard 
                      name="Motorcycles" 
                      data={100} 
                      icon={<LiaMotorcycleSolid />} 
-                  />
-                  <OverviewCard 
-                     name="Motorcycles" 
-                     data={100} 
-                     icon={<LiaCarSideSolid />} 
                   />
                   <OverviewCard 
                      name="Cars" 
