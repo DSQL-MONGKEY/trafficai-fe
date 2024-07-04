@@ -4,13 +4,13 @@ import { ReactElement } from "react";
 
 interface CardProps {
    name: string,
-   data: number
+   data?: string,
    icon: ReactElement
 }
 
 const OverviewCard = ({ name, data, icon }: CardProps) => {
    return (
-      <div className="flex flex-col w-52  border border-gray-500 rounded-md p-1">
+      <div className="flex flex-col w-52  border  shadow-lg rounded-md p-1">
          <div className="flex justify-between items-center">
             <span className="text-lg font-semibold">
                {name}
